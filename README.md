@@ -22,12 +22,6 @@ Ce projet contient un script batch pour Windows 11 permettant de réinitialiser 
 2. Suivez les instructions affichées dans la console.
 3. À la fin du script, ouvrez une session avec le compte "Formation" pour finaliser la personnalisation.
 
-1. Vous pouvez aussi executer cette ligne :
-
-```batch
-powershell -Command "iwr -useb https://raw.githubusercontent.com/aiola13/greta-w11-user-setup/main/w11-user-setup.bat -OutFile %TEMP%\w11-user-setup.bat; cmd /c %TEMP%\w11-user-setup.bat"
-```
-
 ## Détails techniques
 
 Le script effectue les opérations suivantes :

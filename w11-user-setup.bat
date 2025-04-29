@@ -40,7 +40,7 @@ if !errorlevel! neq 0 (
     echo Creation du compte "Formation"...
     net user "Formation" /add /active:yes
     REM Désactiver l'expiration du mot de passe
-    WMIC USERACCOUNT WHERE Name='Formation' SET PasswordExpires=False
+    wmic useraccount where "name='Formation'" set  passwordexprires=FALSE
     REM 7. Ajouter le compte au groupe "Utilisateurs" (optionnel)
     net localgroup "Utilisateurs" "Formation" /add
  
